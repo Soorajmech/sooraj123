@@ -2,21 +2,13 @@
 #include<conio.h>
 int main()
 {
- int num;
+ int a;
  clrscr();
- printf("enter any number:");
- scanf("%d",&num);
- if(num > 0)
- {
-  printf("number is POSITIVE");
-  }
- if (num < 0)
- {
-  printf("number is NEGATIVE");
-  }
- if(num == 0)
- {
-  printf("number is ZERO");
-  }
+ printf("enter the number");
+ scanf("%d",&a);
+ if (a % 2==0)
+  printf("the number is even");
+ else
+  printf("the number is odd");
  return 0;
- }
+}
